@@ -282,7 +282,7 @@ footer img {
     }
 }
 
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 767px) {
     nav {
         justify-content: end;
     }
