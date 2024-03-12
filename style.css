@@ -305,6 +305,7 @@ margin-left: 5px;
 @media only screen and (max-width: 567px) {
     nav {
         justify-content: end;
+        margin-left: 5px;
     }
 /* 
     nav ul:first-of-type {
@@ -312,7 +313,7 @@ margin-left: 5px;
     } */
 
     #search-bar {
-        max-width: 200px;
+        max-width: 100px;
     }
 
     footer div:last-of-type div {
@@ -329,23 +330,20 @@ margin-left: 5px;
     {
         display: flex;
         justify-content: center;
-        margin-right: 20px;
+        margin-right: 100px;
     }
 
     #google-logo
     {
-        width: 70%;
+        width: 50%;
         justify-content: center; 
         margin-left: 70px;
     }
 
-    #google-logo
-    {
-        max-width: 150;
-    }
+    
     #sign-in-btn
     {
-        width: 50px;
+        width: 20px;
 
     }
     nav 
@@ -353,6 +351,4 @@ margin-left: 5px;
 margin-left: 5px;
     }
 }
-
-
 
