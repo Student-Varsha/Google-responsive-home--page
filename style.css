@@ -343,7 +343,7 @@ display: flex;
     .lan
     {
         display: flex;
-        flex-direction: row;
+        flex-direction: coloum;
         height: 100px;
         width: 80%;
        
@@ -358,7 +358,7 @@ display: flex;
         width: 40%;
         height:60%;
         justify-content: center; 
-        margin-left: 150px;
+        margin-right: 150px;
         margin-left: 150px;
     }
 
