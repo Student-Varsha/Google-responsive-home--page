@@ -258,6 +258,11 @@ footer div:last-of-type div {
 footer img {
     width: 12px;
     margin-right: 5px;
+    .lan{
+        display: flex;
+        width: 300px;
+        justify-content: center;
+    }
 }
 
 /* mobile */
@@ -265,7 +270,7 @@ footer img {
 @media only screen and (max-width: 767px) {
 
     #search-bar {
-        max-width: 484px;
+        max-width: 384px;
     }
     
     footer div:last-of-type {
@@ -282,8 +287,18 @@ footer img {
     }
     #google-logo
     {
-        max-width: 250;
+        max-width: 150;
     }
+    #sign-in-btn
+    {
+        width: 50px;
+
+    }
+    nav 
+    {
+margin-left: 5px;
+    }
+    
 
 }
 
@@ -297,7 +312,7 @@ footer img {
     } */
 
     #search-bar {
-        max-width: 300px;
+        max-width: 200px;
     }
 
     footer div:last-of-type div {
@@ -312,22 +327,32 @@ footer img {
     }
     .lan
     {
-        width:100px;
         display: flex;
         justify-content: center;
-        flex-direction: row;
+        margin-right: 20px;
     }
 
     #google-logo
     {
         width: 70%;
         justify-content: center; 
-        margin-left: 30px;
+        margin-left: 70px;
     }
 
+    #google-logo
+    {
+        max-width: 150;
+    }
+    #sign-in-btn
+    {
+        width: 50px;
 
+    }
+    nav 
+    {
+margin-left: 5px;
+    }
 }
-
 
 
 
