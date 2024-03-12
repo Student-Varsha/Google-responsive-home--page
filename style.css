@@ -340,8 +340,8 @@ display: flex;
     } */
 
     #search-bar {
-        max-width: 250px;
-        height: 0px;
+        max-width: 280px;
+      
     }
 
     footer div:last-of-type div {
@@ -388,10 +388,9 @@ display: flex;
     {
         width: 50%;
         height:50%;
-        justify-content: center; 
-        align-items: center;
-        margin-right: 150px;
-        margin-left: 100px;
+       
+        /* margin-right: 150px; */
+        margin-left: 90px;
     }
 
     
@@ -401,7 +400,7 @@ display: flex;
         width:30px;
         padding-top: 3px;
         padding-bottom: 3px;
-        
+
         
 
 
@@ -427,4 +426,17 @@ display: flex;
     {
         display: none;
     }
+
+    
+   footer 
+   {
+    margin-bottom: 0px;
+    font-size: 10px;
+   }
+   
+   
+   footer div:last-of-type li {
+   
+    padding-left:  5px;
+   }
 }
