@@ -334,8 +334,8 @@ display: flex;
     } */
 
     #search-bar {
-        max-width: 350px;
-        height: 40%;
+        max-width: 300px;
+        height: 20px;
     }
 
     footer div:last-of-type div {
