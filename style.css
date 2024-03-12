@@ -181,7 +181,7 @@ textarea {
     display: flex;
     align-items: center;
     background-color: white;
-    border: 1px solid #202124;
+    border: 1px solid rgba(120, 122, 122,0.1);
     border-radius: 4px;
     color: black;
     font-family: arial,sans-serif;
@@ -197,10 +197,10 @@ textarea {
 }
 
 #google-btns a:hover {
-    box-shadow: 0 1px 3px rgba(23,23,23,0.5);
-    background-color: #303134;
-    border: 1px solid #5f6368;
-    color: #e8eaed;
+    /* box-shadow: 0 1px 3px  rgba(120, 122, 122,0.1); */
+    background-color:  rgba(120, 122, 122,0.1);
+    border: 1px solid rgb(151, 160, 163);
+    color: rgb(128, 114, 114);
 }
 
 /* footer */
@@ -258,12 +258,14 @@ footer div:last-of-type div {
 footer img {
     width: 12px;
     margin-right: 5px;
-    .lan{
+}
+   
+.lan{
         display: flex;
-        width: 300px;
+        width: auto;
         justify-content: center;
     }
-}
+
 
 /* mobile */
 
@@ -303,6 +305,11 @@ margin-left: 5px;
 }
 
 @media only screen and (max-width: 567px) {
+
+    *
+    {
+        font-size: 10px;
+    }
     nav {
         justify-content: end;
         margin-left: 5px;
@@ -313,7 +320,8 @@ margin-left: 5px;
     } */
 
     #search-bar {
-        max-width: 100px;
+        max-width: 200px;
+        height: 30px;
     }
 
     footer div:last-of-type div {
@@ -335,7 +343,7 @@ margin-left: 5px;
 
     #google-logo
     {
-        width: 50%;
+        width: 40%;
         justify-content: center; 
         margin-left: 70px;
     }
@@ -343,7 +351,10 @@ margin-left: 5px;
     
     #sign-in-btn
     {
-        width: 20px;
+        width: 40%;
+        height:90%;
+
+
 
     }
     nav 
@@ -351,4 +362,3 @@ margin-left: 5px;
 margin-left: 5px;
     }
 }
-
