@@ -337,18 +337,21 @@ margin-left: 5px;
     .lan
     {
         display: flex;
+        height: 100px;
         justify-content: center;
         margin-right: 10px;
         margin-left: 10px;
         flex-direction: row;
-        margin-right: 10px;
+        padding-right: 5px;
     }
 
     #google-logo
     {
         width: 40%;
+        height:60%;
         justify-content: center; 
-        margin-left: 70px;
+        margin-left: 100px;
+        margin-left: 100px;
     }
 
     
