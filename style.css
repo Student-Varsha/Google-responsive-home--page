@@ -349,7 +349,7 @@ display: flex;
     {
         display: flex;
         flex-direction: coloum;
-        height: 100px;
+        height: 200px;
         width: 80%;
        
         margin-right: 10px;
@@ -364,7 +364,7 @@ display: flex;
         height:60%;
         justify-content: center; 
         margin-right: 150px;
-        margin-left: 150px;
+        margin-left: 50px;
     }
 
     
@@ -375,6 +375,9 @@ display: flex;
 
 
 
+    }
+    .lann{
+        margin-left: 10px;
     }
     nav 
     {
