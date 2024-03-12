@@ -126,6 +126,7 @@ section {
 
 #search-bar img {
     width:27px;
+    
 }
 
 #search-bar div:first-of-type {
@@ -150,6 +151,8 @@ section {
 
 #search-bar div:last-of-type img {
     margin: auto 10px;
+    position: relative;
+    right:50px;
 }
 
 #search-bar div:last-of-type img:last-of-type {
@@ -324,15 +327,15 @@ margin-left: 5px;
     nav ul:first-of-type {
         display: none;
     } */
-    section
+    /* section
     {
 display: flex;
 
-    }
+    } */
 
     #search-bar {
-        max-width: 300px;
-        height: 15px;
+        max-width: 350px;
+        height: 40%;
     }
 
     footer div:last-of-type div {
@@ -347,22 +350,30 @@ display: flex;
     }
     .lan
     {
+        /* display: flex; */
+        flex-direction: column;
+        
+        /* width: 80%;
+        margin-right: 10px;
+        margin-left: 10px;
+        padding-right: 10px; */
+    }
+    /* .lann
+    {
         display: flex;
         flex-direction: coloum;
         justify-content: space-around;
         height: 200px;
         width: 80%;
-       
         margin-right: 10px;
         margin-left: 10px;
-        
         padding-right: 10px;
-    }
+    } */
 
     #google-logo
     {
-        width: 40%;
-        height:60%;
+        width: 60%;
+        height:40%;
         justify-content: center; 
         margin-right: 150px;
         margin-left: 100px;
@@ -390,5 +401,11 @@ display: flex;
     
     #search-bar div:last-of-type img:last-of-type {
         width: 15px;
+    }
+
+
+    #google-btns 
+    {
+        display: none;
     }
 }
