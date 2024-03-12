@@ -158,11 +158,13 @@ section {
 #search-bar div:last-of-type img {
     margin: auto 10px;
     position: relative;
-    right:50px;
+    right:480px;
+    /* padding-top: 3px ; */
 }
 
 #search-bar div:last-of-type img:last-of-type {
     width: 25px;
+    margin-right: -10px;
 }
 
 textarea {
@@ -325,10 +327,10 @@ margin-left: 5px;
     {
         font-size: 10px;
     }
-    nav {
+    /* nav {
         justify-content: end;
         margin-left: 5px;
-    }
+    } */
 /* 
     nav ul:first-of-type {
         display: none;
@@ -345,7 +347,11 @@ display: flex;
     }
 
     footer div:last-of-type div {
-        display: none;
+        display: visible ;
+    }
+    #search-bar div:last-of-type img
+    {
+        display: visible;
     }
     footer div:last-of-type {
         flex-direction: column;
@@ -417,9 +423,10 @@ display: flex;
         width:15px;
     }
     
-    #search-bar div:last-of-type img:last-of-type {
+    /* #search-bar div:last-of-type img:last-of-type {
         width: 15px;
-    }
+        display: flex;
+    } */
 
 
     #google-btns 
@@ -437,6 +444,13 @@ display: flex;
    
    footer div:last-of-type li {
    
-    padding-left:  0px;
+    padding-left:  5px;
+    
    }
+   .strt
+   {
+    margin-left: 10px;
+   }
+   
+
 }
