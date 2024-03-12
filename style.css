@@ -265,6 +265,11 @@ footer img {
         width: 100%;
         justify-content: center;
         align-items: center;
+        padding-right: 10px;
+    }
+    .lann
+    {
+        margin-left: 10px;
     }
 
 
@@ -350,7 +355,7 @@ display: flex;
         margin-right: 10px;
         margin-left: 10px;
         
-        padding-right: 5px;
+        padding-right: 10px;
     }
 
     #google-logo
