@@ -437,6 +437,6 @@ display: flex;
    
    footer div:last-of-type li {
    
-    padding-left:  5px;
+    padding-left:  0px;
    }
 }
